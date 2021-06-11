@@ -7,7 +7,6 @@ const parar = () => console.log('O carro parou')
 andar(acaoCarro)
 parar(acaoCarro)
 
-
 // Nesse caso, as arrow functions parar e andar podem ser executadas entre () para utilizar a arrow function acaoCarro2 como function principal.
 const acaoCarro2 = callback => console.log(callback)
 const andar2 = () => 'O carro está andando'
@@ -23,7 +22,6 @@ acaoCarro2(parar2)
 const acaoCarro3 = callback => console.log(callback())
 const andar3 = () => 'O carro está andando'
 const parar3 = () => 'O carro parou'
-
 acaoCarro3(andar3)
 acaoCarro3(parar3)
  
