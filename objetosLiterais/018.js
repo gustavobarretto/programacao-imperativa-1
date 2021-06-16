@@ -9,7 +9,7 @@ function Restaurante(nomeRestaurante, cardapio) {
 } 
 Restaurante()
 
-// testando o exercício coma arrow function
+// testando o exercício com a arrow function
 const Restaurante2 = (nomeRestaurante2, cardapio2) => {
     nomeRestaurante2 = 'Belanápole'
     cardapio2 = ['Ravioli', ' Fettuccine', ' Lasanha', ' Pizza', ' Bruschetta', ' Espaguete.']
